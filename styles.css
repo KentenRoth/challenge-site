@@ -60,7 +60,7 @@ body {
 }
 
 .top-bar img{
-    color:white
+    max-width: 100%;
 }
 
 .try-button {
@@ -96,7 +96,7 @@ body {
     font-size: 1.3rem;
     font-weight: 700;
     letter-spacing: -0.1rem;
-    line-height: 2rem;
+    line-height: 2.8rem;
     text-align: center;
 }
 
@@ -142,7 +142,7 @@ body {
 }
 
 .image-div img {
-    max-width: 800px;
+    max-width: 75%;
     margin-bottom: 75px;
 }
 
@@ -218,7 +218,7 @@ body {
     font-size: 1.3rem;
     font-weight: 700;
     letter-spacing: -0.1rem;
-    line-height: 2rem;
+    line-height: 2.9rem;
     padding-left: 100px;
     text-align: left;
 }
@@ -269,14 +269,14 @@ body {
 
 .input-field__box {
     margin-left: 200px;
+    margin-bottom: 150px;
 }
 
 .input-field {
     border: none;
     border-radius: 5px;
     height: 1.7rem;
-    margin-bottom: 50px;
-    width: 220px;
+    max-width: 220px;
     margin-right: 20px;
 }
 
@@ -310,28 +310,120 @@ body {
 .contact-text {
     font-size: .6rem;
 }
-.fontawesome{
-    margin-left: 95px;
-    margin-bottom: 100px;
+
+.fontawesome {
+    margin-top: 100px;
 }
+
 .fab {
     color: hsl(207, 100%, 98%);
     padding: 5px;
 }
 
+.flip {
+    display: flex;
+}
 
 
-@media screen and (max-width: 770px) {  }
+@media screen and (max-width: 770px) {  
+    .col-6 {
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
 
-@media screen and (max-width: 370px) {  }
+    .flip {
+        flex-direction: column-reverse;
+    }
 
-    /* Pink: hsl(192,100%,9%)
+    .top-bar{
+        padding-left: 20px;
+    }
+    .top-bar img {
+        max-width: 50%;
+    }
 
-    Very Dark Cyan: hsl(192, 100%, 9%)
-    Very Pale Blue: hsl(207, 100%, 98%)
+    .header-h1__left {
+        padding: 0;
+        text-align: center;
+    }
 
-    Family: Poppins
-    Weights: 700
+    .section-three__text{
+        text-align: center;
+    }
+    .newsletter-box {
+        margin: auto;
+        margin-top: -50px;
+        text-align: center;
+    }
 
-    Family: Open Sans
-    Weights: 400, 600, 700 */
+    .section-five__left-box {
+        margin: auto;
+        text-align: center;
+    }
+
+    .input-field__box {
+        margin: 0;
+        text-align: center;
+    }
+
+
+
+
+
+}
+
+@media screen and (max-width: 370px) { 
+    .background1-top__mobile {
+        display: block;
+        margin-bottom: -5px;
+    }
+    .background1-top {
+        display: none;
+    }
+    .background1-bottom__mobile {
+        display: block;
+    }
+
+    .background1-bottom {
+        display: none;
+    }
+
+    .background2-top__mobile {
+        display: block;
+        margin-bottom: -5px
+    }
+
+    .background2-top {
+        display: none;
+    }
+
+    .background3-top__mobile {
+        display: block;
+        margin-bottom: -5px;  
+    }
+
+    .background3-top {
+        display: none;
+    }
+
+    .col-6 {
+        width: 100%
+    }
+
+    .section-five__text {
+        padding: 0;
+        font-size: .8rem;
+        width: 100%
+    }
+
+    .phone-image, .email-image {
+        font-size: 1rem;
+    }
+
+    .contact-text {
+        font-size: .8rem;
+    }
+
+}
+
