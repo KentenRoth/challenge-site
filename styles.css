@@ -56,6 +56,8 @@ body {
     
 }
 
+/*  Header */
+
 .try-button:hover {
     background: hsl(322,100%,66%);
     color: white;
@@ -63,14 +65,16 @@ body {
 
 .header {
     margin: auto;
-    max-width: 770px;
+    max-width: 1000px;
 }
 
 .header-h1 {
     color: hsl(192, 100%, 9%);
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
     font-weight: 700;
     letter-spacing: -0.1rem;
+    line-height: 2rem;
     text-align: center;
 }
 
@@ -104,9 +108,49 @@ body {
     box-shadow: 0px 5px 16px 5px rgba(0, 0, 0, 0.5);
 }
 
+/* 2nd Section */
 
+.section-two {
+    margin: auto;
+    max-width: 1000px;
+    margin-bottom: 100px;
+}
 
+.image-div {
+    text-align: center;
+}
 
+.image-div img {
+    max-width: 800px;
+}
+
+.col-6 {
+    margin: auto;
+    text-align: center;
+}
+
+.section-two--box {
+    margin: auto;
+    max-width: 200px;
+}
+
+.section-two--img__left {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.section-two--img {
+    text-align: left;
+}
+
+.section-two--number {
+    font-family: 'Poppins';
+    font-size: 4rem;
+}
+
+.section-two--text {
+    color: rgba(0, 0, 0, 0.5);
+}
 
 
 
