@@ -40,6 +40,17 @@ body {
 
 }
 
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+/* Top Bar */
+
 .top-bar {
     margin: auto;
     margin-top: 20px;
@@ -159,20 +170,44 @@ body {
 }
 
 /* Section 3 */
-
-
-
-
-.attribution {
-	font-size: 11px;
-	text-align: center;
+.background1-top {
+    margin-bottom: -5px;
+}
+.background1-top__mobile {
+    display: none;
 }
 
-.attribution a {
-	color: hsl(228, 45%, 44%);
+.background1-bottom__mobile {
+    display: none;
 }
+
+.growtogether-img {
+    width: 85%;
+}
+
+.light-background {
+    background: hsl(207, 100%, 98%);
+}
+
+.header-h1__left {
+    color: hsl(192, 100%, 9%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: -0.1rem;
+    line-height: 2rem;
+    padding-left: 100px;
+    text-align: left;
+}
+.section-three__text {
+    padding: 10px 100px;
+    text-align: left;
+}
+
 
 @media screen and (max-width: 770px) {  }
+
+@media screen and (max-width: 370px) {  }
 
     /* Pink: hsl(192,100%,9%)
 
