@@ -37,7 +37,7 @@ body {
 .container {
     margin: auto;
     max-width: 1440px;
-
+    overflow: hidden;
 }
 
 .attribution {
@@ -68,7 +68,7 @@ body {
     font-weight: 500;
     margin-right: 50px;
     margin-top: 2px;
-    padding: 5px 10px;
+    padding: 5px 20px;
     
 }
 
@@ -173,7 +173,15 @@ body {
 .background1-top {
     margin-bottom: -5px;
 }
+
+.background2-top {
+    margin-bottom: -5px;
+}
+
 .background1-top__mobile {
+    display: none;
+}
+.background2-top__mobile {
     display: none;
 }
 
@@ -181,7 +189,11 @@ body {
     display: none;
 }
 
-.growtogether-img {
+.background2-bottom__mobile {
+    display: none;
+}
+
+.section-three__img {
     width: 85%;
 }
 
@@ -202,6 +214,13 @@ body {
 .section-three__text {
     padding: 10px 100px;
     text-align: left;
+}
+
+/* Section four */
+
+.section-four__button {
+    margin: auto;
+    text-align: center;
 }
 
 
