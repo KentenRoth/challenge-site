@@ -349,6 +349,8 @@ body {
     }
 
     .section-three__text{
+        margin: auto;
+        max-width: 500px;
         text-align: center;
     }
     .newsletter-box {
@@ -374,6 +376,16 @@ body {
 }
 
 @media screen and (max-width: 370px) { 
+        .header-content {
+        margin: auto;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .header-h1 {
+        padding: 10px;
+    }
+
     .background1-top__mobile {
         display: block;
         margin-bottom: -5px;
@@ -411,12 +423,36 @@ body {
         width: 100%
     }
 
-    .section-five__text {
-        padding: 0;
-        font-size: .8rem;
-        width: 100%
+    .section-three__text{
+        padding: 10px;
+        max-width: 500px;
+        text-align: center;
     }
 
+    .section-five__left-box {
+        padding: 10px;
+        max-width: 500px;
+        text-align: left;
+    }
+    .newsletter-box {
+        padding: 10px;
+        max-width: 500px;
+        text-align: left;
+    }
+
+    .newsletter-title {
+        padding: 10px;
+    }
+
+    .section-five__text {
+        padding: 10px;
+        font-size: .8rem;
+        max-width: 500px;
+        text-align: left;
+    }
+    .section-five__contact {
+        padding: 10px;
+    }
     .phone-image, .email-image {
         font-size: 1rem;
     }
